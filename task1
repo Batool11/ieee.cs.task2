@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>task cs</title>
+<style>
+     .b{
+        background-color: rgba(30,50, 50, 0.5) ;
+        background-position: center ;
+        height: 800px;
+        width: 1000px;
+        border:10px silver double ;
+    }
+    div {
+      text-align: center;
+     
+    }
+    body {
+        background-image: url("plant green.jpg") ;
+    background-size:cover ;
+  }
+ h1::first-letter{
+color: goldenrod;
+font-size:40 ;
+font-family: Georgia
+ }
+ p::first-letter{
+color: goldenrod;
+font-size:40 ;
+font-family: Georgia
+ }
+ label::first-letter{
+color: goldenrod;
+font-size:40 ;
+font-family: Georgia
+  </style>
+
+</head>
+<bady>
+  
+ <div class="b">
+  <h1>Plant.Web</h1>
+    <p><img src="msg1184457734-5352.jpg"width="150px" height="150px"></p>
+   <form action="Confirmed.php" method="post">
+    <label for="username "> Enter your name :</label>
+    <br>
+     <input type="text" id="username " name="username">
+  <br><br>
+  <label for="email ">Enter name of your favorite plant: </label>
+  <br>
+  <input type="email" id="email " name="email">
+  <br><br>
+  <label for="information">Tell us a little about yourself:</label>
+  <br>
+  <textarea rows="4" cols="30" name="nformation" id="nformation"></textarea>
+   <br><br>
+   <p>What kind of plant do you Prefer?</p>
+   <label for="Lily">Lily</label>
+   <input type="checkbox" name="favorite" id="Lily">
+   <label for="Cactus">Cactus</label>
+   <input type="checkbox" name="favorite" id="Cactus">
+   <label for="Bramble">Bramble</label>
+   <input type="checkbox" name="favorite" id="Bramble">
+   <label for="Fern">Fern</label>
+   <input type="checkbox" name="favorite" id="Fern">
+   <br><br>
+   <input type="submit" value="Submit">
+  </form>
+   <p>Send a massage to us:</p>
+
+
+     
+ </div>
+</bady>
+</html>
